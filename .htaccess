@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^thumb/(.+)$ thumb.php?image=$1&%{QUERY_STRING} [NC,L]

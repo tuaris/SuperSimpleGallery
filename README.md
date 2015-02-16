@@ -10,6 +10,7 @@ The backend management is where most of the work is done.
 1. *edit.php* is password protected, change the user name and password as required by editing the file's contents.
 2. All paths assume that everything is stored in the same directory, including images.  Like I said, I may develop this further if the interest is their.
 3. Only JPEG is supported for now, but hte frame work exists to support PNG and GIF.
+4. You need mod_rewrite in order to use the thmbnailing feature.  See the included .htaccess file.
 
 The backend management interface if self explanatory, but here is the quick start:
 
